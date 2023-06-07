@@ -1,23 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0.01em;
-    color: black;
+    color: white;
+    background-color: black;
 }
 
+a:hover {
+    background-color: rgb(94, 199, 232);
+    color: darkcyan;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    flex-basis: 40%;
+
+}
+
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+}
 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkcyan;
+    border: 1px solid #00d7ef;
     font-family: cursive;
+    font-size: 100%;
+    position: sticky;
+    
 }
 
 li {
-    color: chartreuse;
+    float: left;
+    border: 1px solid #000000;
+}
+
+.active {
+    background-color: rgb(1, 32, 98);
+    color: rgb(94, 199, 232);
+}
+
+li a {
+    display: block;
+    color: aqua;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 h1{
+    font-size: 200%;
     color: aqua;
+    padding: 10px;
 }
 
 h2 {
-    color: blueviolet;
+    color: rgb(179, 107, 247);
 }
 
 h3 {
@@ -27,4 +80,15 @@ h3 {
 .BANE{
     color: blue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    width: 25%;
+    height: auto;
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    color: chartreuse;
 }
