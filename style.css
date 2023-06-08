@@ -90,5 +90,29 @@ img {
 
 footer {
     text-align: center;
-    color: chartreuse;
+    color: chartreuse
+    #23F;
+}
+
+.btn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.btn:hover {
+    background-color: red;
+    color: black;
+}
+
+.link {
+    color: yellow;
+}
+.link:hover {
+    background-color: green;
+    color: red;
 }
