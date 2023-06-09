@@ -6,6 +6,10 @@ console.log(userName)
 const welcomeMsg = alert("Welcome to my page " + userName)
 prompt
 
+if (userName) === "Jessica Bane" {
+    alert("Welcome " + userName + "to your site")
+}
+else ""
 
 // var linkClicked()[
 //     if (confirm("Are you sure?") == true)
