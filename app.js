@@ -3,13 +3,9 @@ console.log(userName)
 // if (userName == "Je"){
 // } else (alert("Please enter your name"))
 
-const welcomeMsg = alert("Welcome to my page " + userName)
-prompt
-
-if (userName) === "Jessica Bane" {
+if (userName == "Jessica Bane") {
     alert("Welcome " + userName + "to your site")
-}
-else ""
+} else ( alert("Welcome to my page " + userName))
 
 // var linkClicked()[
 //     if (confirm("Are you sure?") == true)

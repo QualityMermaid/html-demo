@@ -22,7 +22,7 @@ while (isNaN(time)){
             
         }
 
-while (country.toLowerCase() != "england"){
+while (country != "england"){
     country = prompt("What country are you in? (please type in lower case)")
     if (country != "england"){
         alert("Sorry we do not support this country")
