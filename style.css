@@ -101,8 +101,9 @@ footer {
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   font-size: 16px;
+  margin: 0 auto;
 }
 .btn:hover {
     background-color: red;
@@ -118,7 +119,7 @@ footer {
 }
 
 p2 {
-    color: pink;
     display: inline-block;
     text-align: center;
+    padding: 10px;
 }
