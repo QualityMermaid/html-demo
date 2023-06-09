@@ -116,3 +116,9 @@ footer {
     background-color: green;
     color: red;
 }
+
+p2 {
+    color: pink;
+    display: inline-block;
+    text-align: center;
+}

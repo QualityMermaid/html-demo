@@ -49,3 +49,49 @@ function theReturningSum(num1, num2, num3){
 }
 console.log(theReturningSum(30, 20, 10))
 console.log(theReturningSum(5, 120, 10))
+
+// myPets = [] this is a list
+let myPets = ["dog", "cat", "fish", "parrot", "mouse", "horse", "chicken"]
+
+// && == AND this must be true
+// ||== OR this is true
+
+
+// for loop
+//  initialization ( i is common practice for initialization) / condition / after thought (doing something after the loop)
+// remember code starts at 0 not 1
+// you can create infinate loops by mistake
+
+for (let i = 0; i < myPets.length; i++){
+    console.log("I love my pet " + myPets[i])
+}
+
+// white loop
+// white(condition){
+    // statement
+// }
+
+let n = 0
+let x = 0
+
+while(n < 3){
+    n++
+    x += n
+    console.log(n)
+    console.log(x);
+
+    if (x >= 3){
+        break
+    }
+}
+
+let answer
+
+while(answer !=7){
+    answer = prompt("Guess what my lucky number is between 0 and 10. Hint it is a full number")
+    if (answer != 7){
+        alert("Wrong number. Try again")
+    } else{
+        alert("Correct! You can now access my Contact Page")
+    }
+}
