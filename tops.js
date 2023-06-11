@@ -51,3 +51,19 @@ while (country != "england"){
 
     return document.write(message)
 }
+function codeImageDisplayed(){
+    let numImg = prompt("How many code images would you like to see between 1 and 3?")
+    let selectedImages = []
+    let gallery = [
+         "codeImages/code.jpeg", 
+         "codeImages/code2.png", 
+         "codeImages/codecode.jpeg",
+    ]
+    let maxImages = Math.min(gallery.length, numImg)
+    // let codeImg = document.getElementById()
+   
+   for (let x = 0; x < maxImages; x++){
+    selectedImages.push(gallery[x])
+   console.log("this is working" + gallery[x])
+   }  
+    return selectedImages   }
